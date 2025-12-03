@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix ./src ./spec",
     "build": "npm run lint && tsc",
     "build:release": "tsc",
-    "test": "npm run lint && jest",
+    "test": "npm run lint && TZ=UTC jest",
     "preversion": "npm test",
     "version": "NODE_ENV=production npm run-script build:release",
     "postversion": "git push && git push --tags"
