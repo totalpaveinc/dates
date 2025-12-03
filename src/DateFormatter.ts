@@ -62,6 +62,14 @@ export class DateFormatter implements IFormatter<Date, string> {
     public static format(date: Date, format?: string): string {
         return moment(date).format(format || DEFAULT_FORMAT);
     }
+
+    public utcFormat(date: Date): string {
+        return moment.utc(date).format(this.$format);
+    }
+
+    public static utcFormat(date: Date, format?: string): string {
+        return moment.utc(date).format(format || DEFAULT_FORMAT);
+    }
 }
 
 const DEFAULT_FORMAT = DateFormatter.SHORT_DATE;
