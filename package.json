@@ -34,19 +34,19 @@
     "@arashi/token": "1.0.1",
     "@jest/types": "30.5.1",
     "@totalpave/eslint-plugin": "7.1.2",
-    "@totalpave/interfaces": "5.40.1",
+    "@totalpave/interfaces": "5.42.0",
     "@types/jest": "30.0.0",
-    "@types/node": "26.6.4",
+    "@types/node": "26.6.5",
     "jest": "30.5.2",
     "ts-jest": "29.4.14",
     "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "typedoc": "0.28.20",
+    "typedoc-plugin-markdown": "4.14.0"
   },
   "dependencies": {
     "@totalpave/math": "2.3.0",
     "moment": "2.31.0",
-    "tslib": "2.8.1",
-    "typedoc": "0.28.20",
-    "typedoc-plugin-markdown": "4.13.1"
+    "tslib": "2.8.1"
   }
 }
